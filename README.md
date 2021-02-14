@@ -1,2 +1,1 @@
-# geoffreysaxena.github.io
-This Repo hosts the code to my current GitHub Pages Portfolio &amp; Blog Site
+## 🌈 This Repo hosts my GitHub.io Portfolio! 🚀
