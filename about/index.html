@@ -28,177 +28,115 @@
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>About Me</title>
+    <title>Geffy | About</title>
 
-    <link rel="stylesheet" href="../css/wpmin.css" media="all" data-minify="1" />
 
-    <link rel='stylesheet' href='../css/main.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="../assets/min.css" media="all" data-minify="1" />
+    <link rel="stylesheet" href="../assets/blog.css" />
+
 
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel='stylesheet' id='collecto-google-font-enqueue-css' href='https://fonts.googleapis.com/css?family=Hepta+Slab:200,400,700&amp;subset=latin%2Clatin-ext&amp;display=swap' type='text/css' media='all' />
-
+    <script type='text/javascript' src='../assets/jquery.js' id='jquery-core-js'></script>
+    <script type='text/javascript' src='../assets/main.js'></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script type='text/javascript' src='../js/jquery.js' id='jquery-core-js'></script>
+
 </head>
 
-<body class="page-template-default page page-id-10 tk-theme-frontend">
+<body class="page-template-default page page-id-23 sticky-header no-sidebar tk-theme-frontend">
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-        <div class="primary-side theme-side">
-            <div class="sidebar-button">
-                <button class="sidebar-toggle">
-                    <span class="screen-reader-text">toggle open/close sidebar</span>
-                    <i class="icon-sidebar"></i>
-                    <i class="icon-close"></i>
-                </button>
-            </div>
-            <div class="sidebar-hide-scroll">
-
-                <aside id="secondary" class="widget-area" role="complementary">
-                    <section id="text-2" class="widget widget_text">
-                        <div class="textwidget">
-                            <h3>Hi, I’m Geoffrey!</h3>
-                            <p>Here, you can read about my adventures with Machine Learning, Deep Learning, Data Visualization &amp; JavaScript!</p>
-                        </div>
-                    </section>
-
-                    <section id="nav_menu-2" class="widget widget_nav_menu">
-                        <div class="menu-social-menu-container">
-                            <ul id="menu-social-menu" class="menu">
-                                <li id="menu-item-70" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="https://www.linkedin.com/in/geoffreysaxena/" target="_blank">LinkedIn</a></li>
-                                <li id="menu-item-71" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="https://github.com/geoffreysaxena" target="_blank">GitHub</a></li>
-                                <li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="https://public.tableau.com/profile/saxenageoffrey#!/" target="_blank">Tableau</a></li>
-                                <li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a href="https://twitter.com/geoffrey_saxena" target="_blank">Twitter</a></li>
-                                <li id="menu-item-74" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74"><a href="https://in.pinterest.com/Geffyy/" target="_blank">Pinterest</a></li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <section id="recent-posts-2" class="widget widget_recent_entries">
-                        <h2 class="widget-title"><b>Recent Posts</b></h2>
-                        <ul>
-                            <li>
-                                <a href="../who-said-mathematics-isn't-beautiful/who-said-mathematics-isn't-beautiful.html">Who Said Mathematics Isn't Beautiful?</a>
-                            </li>
-                            <li>
-                                <a href="../classifying-doodles-with-javascript/classifying-doodles-with-javascript.html">Classifying Doodles with JavaScript</a>
-                            </li>
-                            <li>
-                                <a href="../dog-breed-classification-using-cnns/dog-breed-classification-using-cnns.html">Dog Breed Classification using CNN's</a>
-                            </li>
-                            <li>
-                                <a href="../compose-a-poem-using-nlp-and-bert/compose-a-poem-using-nlp-and-bert.html">Compose A Poem using NLP &amp; BERT</a>
-                            </li>
-                            <li>
-                                <a href="../the-one-where-i-visualize-the-friends-screen-time/the-one-where-i-visualize-the-friends-screen-time.html">The One Where I Visualize The FRIENDS Screen Time</a>
-                            </li>
-                        </ul>
-                    </section>
-
-                    <section id="categories-2" class="widget widget_categories">
-                        <h2 class="widget-title"><b>Categories</b></h2>
-                        <ul>
-                            <li class="cat-item cat-item-8"><a href="../category/machine-learning/index.html">Machine Learning</a>
-                            </li>
-                            <li class="cat-item cat-item-7"><a href="../category/data-visualization/index.html">Data Visualization</a>
-                            </li>
-                            <li class="cat-item cat-item-4"><a href="../category/javascript/index.html">JavaScript</a>
-                            </li>
-                            <li class="cat-item cat-item-4"><a href="../category/makeovermonday/index.html">MakeoverMonday</a>
-                            </li>
-                            <li class="cat-item cat-item-4"><a href="../category/coding-challenges/index.html">Coding Challenges</a>
-                            </li>
-                        </ul>
-                    </section>
-                </aside><!-- #secondary -->
-            </div>
-
-            <div class="main-navigation-center clear">
-                <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-                        <p class="open-menu">Menu</p>
-                        <p class="close-menu"><i class="icon-close"></i>Close</p>
-                    </button>
-
+        <header id="masthead" class="site-header">
+            <div class="container">
+                <nav id="site-navigation" class="main-navigation">
+                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><em>Menu</em><span>&nbsp;</span></button>
                     <div class="menu-menu-container">
                         <ul id="primary-menu" class="menu">
-                            <li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-14"><a href="../index.html">Home</a></li>
-                            <li id="menu-item-22" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22"><a href="../category/index.html">Categories</a>
+                            <li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-37"><a href="../index.html">Home</a></li>
+                            <li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41"><a href="#">Categories</a>
                                 <ul class="sub-menu">
-                                    <li id="menu-item-23" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23"><a href="../category/machine-learning/index.html">Machine Learning</a></li>
-                                    <li id="menu-item-24" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24"><a href="../category/data-visualization/index.html">Data Visualization</a></li>
-                                    <li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-25"><a href="../category/javascript/index.html">JavaScript</a></li>
-                                    <li id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-26"><a href="../category/makeovermonday/index.html">MakeoverMonday</a></li>
-                                    <li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27"><a href="../category/coding-challenges/index.html">Coding Challenges</a></li>
+                                    <li id="menu-item-42" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42"><a href="../category/machine-learning/index.html">Machine Learning</a></li>
+                                    <li id="menu-item-124" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-124"><a href="../category/data-visualization/index.html">Data Visualization</a></li>
+                                    <li id="menu-item-125" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-125"><a href="../category/javascript/index.html">JavaScript</a></li>
+                                    <li id="menu-item-125" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-125"><a href="coming-soon/index.html">MakeoverMonday</a></li>
+                                    <li id="menu-item-125" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-125"><a href="coming-soon/index.html">Coding Challenges</a></li>
                                 </ul>
                             </li>
-
-                            <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://geoffreysaxena.github.io/portfolio" target="_blank">Portfolio</a></li>
-                            <li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="../about/index.html" aria-current="page">About</a></li>
-                            <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="../contact/index.html">Contact</a></li>
+                            <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://www.geoffreysaxena.tech/portfolio/" target="_blank">Portfolio</a></li>
+                            <!--<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="../about/index.html">About</a></li>-->
+                            <li id="menu-item-38" class="menu-item menu-item-type-post_type current-menu-item current_page_item menu-item-object-page menu-item-38"><a href="../about/index.html">About</a></li>
+                            <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="../contact/index.html">Contact</a></li>
                         </ul>
                     </div>
                 </nav><!-- #site-navigation -->
+            </div><!-- .container -->
+        </header><!-- #masthead -->
+        <div id="bigSearchWrap" class="search-wrap"></div>
+
+
+        <!-- Featured Portfolio Slider -->
+
+
+        <div id="content" class="site-content container">
+
+            <div class="header-wrapper container container-medium">
+                <header class="entry-header">
+                    <h1 class="entry-title page-title">About</h1>
+                </header><!-- .entry-header -->
+
             </div>
-        </div>
+
+            <div class="primary-wrapper container container-medium">
+                <div class="row">
+                    <div id="primary" class="content-area col-sm-12">
+                        <main id="main" class="site-main">
 
 
-        <div id="content" class="site-content">
+                            <article id="post-23" class="post-23 page type-page status-publish hentry ">
+                                <div class="entry-content container container-medium">
 
-            <div id="primary" class="content-area container container-wrapper">
-                <main id="main" class="site-main" role="main">
+                                    <div class="wp-block-image">
+                                        <figure class="alignleft"><img loading="lazy" width="400" height="500" src="../images/geffy.jpg"></figure>
+                                    </div>
 
-
-                    <article id="post-10" class="container container-small post-10 page type-page status-publish hentry">
-                        <header class="entry-header">
-                            <h1 class="page-title">About</h1>
-                        </header><!-- .entry-header -->
-
-                        <div class="entry-content">
-
-                            <p>
-                            <p class="emphasis">Hi! I'm Pratik Geoffrey Saxena</p>
-                            <p>Here’s something you might not know about me.</p>
+                                    <p class="emphasis">Hi, I'm Pratik Geoffrey Saxena!</p>
+                                    <p>Here’s something you might not know about me.</p>
 
 
+                                    <hr class="wp-block-separator is-style-dots" />
 
-                            <div class="wp-block-image">
-                                <figure class="alignright is-resized"><img loading="lazy" src="../images/geffy.jpg" alt="" class="wp-image-85" width="450" height="675" /></figure>
-                            </div>
-
+                                    <p>I am currently pursuing my bachelor’s degree in the field of Computer Science with a specialization in Business Analytics and Optimization.<br></p>
 
 
-                            <p>I am currently pursuing my bachelor’s degree in the field of Computer Science with a specialization in Business Analytics and Optimization.<br></p>
+                                    <p>I love reading novels and sometimes play first-person shooter games. Apart from these, I love acquiring and utilizing new skills. I push myself to learn something new each day, whether that be about Machine Learning, Data Visualization, or weird facts in general.<br></p>
 
 
-
-                            <p>I love reading novels and sometimes play first-person shooter games. Apart from these, I love acquiring and utilizing new skills. I push myself to learn something new each day, whether that be about Machine Learning, Data Visualization, or weird facts in general.<br></p>
-
-
-                            <p class="emphasis">Moving on.</p>
+                                    <p>I've always been fascinated with the confusing yet beautiful world of data, it's wonderful to see how a bunch of numbers can mean so much more than they seem, be it Machine Learning or Data Visualization.</p>
 
 
-                            <p>I've always been fascinated with the confusing yet beautiful world of data, it's wonderful to see how a bunch of numbers can mean so much more than they seem, be it Machine Learning or Data Visualization.</p>
+                                    <p>So, many of you may wonder as to why I made this website? Well for starters I wanted to go around learning JavaScript &amp; the other reason is just that I like to write!</p>
 
 
 
-                            <p>So, many of you may wonder as to why I made this website? Well for starters I wanted to go around learning JavaScript &amp; the other reason is just that I like to write!</p>
+                                </div><!-- .entry-content -->
+                            </article><!-- #post-23 -->
 
+                        </main><!-- #main -->
+                    </div><!-- #primary -->
 
-                        </div><!-- .entry-content -->
-
-                    </article><!-- #post-## -->
-                </main><!-- #main -->
-            </div><!-- #primary -->
+                </div><!-- .row -->
+            </div><!-- .container -->
 
 
         </div><!-- #content -->
 
-        <footer class="d-flex pb-5 pt-6 pt-md-4 border-top border-light bg-primary">
+
+
+        <footer class="d-flex pb-5 pt-6 pt-md-4 border-top border-light bg-primary" style="height: auto;">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-12">
@@ -212,9 +150,6 @@
                                 <a class="social__link" href="https://www.linkedin.com/in/geoffreysaxena/" target="_blank" rel="noopener" aria-label="social icon"><span class="iconify" data-icon="brandico:linkedin-rect" data-inline="false"></span>
                                 </a>
                             </li>
-
-
-
                             <li class="social__item">
                                 <a class="social__link" href="https://public.tableau.com/profile/saxenageoffrey#!/" target="_blank" rel="noopener"><span class="iconify" data-icon="cib:tableau" data-inline="false"></span>
                                 </a>
@@ -228,16 +163,19 @@
                                 <a style="--ionicon-stroke-width: 128px" class="social__link" href="https://in.pinterest.com/Geffyy/" target="_blank" rel="noopener"><span class="iconify" data-icon="simple-icons:pinterest" data-inline="false"></span>
                                 </a>
                             </li>
-                            <br><br>
-                            <a>Hosted by Pratik Geoffrey Saxena</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer><!-- #colophon -->
+        </footer>
     </div><!-- #page -->
-    <span class="black-overlay"></span>
-    <script src="../js/wpmin.js" data-minify="1" defer></script>
+
+    <script type='text/javascript' id='jetpack-carousel-js-extra'>
+        var jetpackCarouselStrings = {};
+    </script>
+
+    <script src="../assets/min.js" data-minify="1" defer></script>
+
 </body>
 
 </html>

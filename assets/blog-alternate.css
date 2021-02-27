@@ -1,0 +1,637 @@
+<style type="text/css" > img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+</style > < !-- `jetpack_related-posts` is included in the concatenated jetpack.css -- > <style id='wp-block-library-inline-css'type='text/css' > .has-text-align-justify {
+    text-align: justify;
+}
+
+</style > <style id='reinform-style-inline-css'type='text/css' >
+/*Body BG*/
+
+body,
+html body.custom-background,
+blockquote:before,
+q:before,
+.masonry .sticky:before,
+.select2-dropdown,
+.select2-results,
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+    background-color: #ffffff;
+}
+
+#add_payment_method #payment div.payment_box::before,
+.woocommerce-cart #payment div.payment_box::before,
+.woocommerce-checkout #payment div.payment_box::before {
+    border-color: #ffffff;
+}
+
+.woocommerce div.product form.cart .button {
+    color: #ffffff;
+}
+
+.comments-area,
+.comments-area blockquote:before,
+.comments-area q:before,
+.featured-category-wrap {
+    background-color: #fff2f0;
+}
+
+/*General font color*/
+
+body,
+a,
+.slick-dots li.slick-active button,
+.entry-author .author-title span,
+.archive div.sharedaddy .sd-social h3.sd-title,
+.wp-block-separator.is-style-dots:before,
+.woocommerce-product-search input[type="submit"],
+.woocommerce-product-search button[type="submit"],
+.woocommerce .products a.add_to_cart_button,
+.woocommerce .products a.add_to_cart_button:hover,
+.woocommerce .products a.ajax_add_to_cart,
+.woocommerce .products a.ajax_add_to_cart:hover,
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.popup-filter,
+.woocommerce .woocommerce-breadcrumb a,
+.summary .product_meta > span *,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+#reviews .woocommerce-review__author,
+.woocommerce form .form-row .required,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.woocommerce-cart table.cart td.actions .coupon .button,
+.woocommerce table.cart td.actions button.button,
+.woocommerce table.cart td.actions input.button,
+.product-modal .view-details a,
+.product-modal-wrapp .entry-summary p.out-of-stock,
+.woocommerce .checkout_coupon button[type="submit"],
+.woocommerce .wishlist_table td.product-add-to-cart a,
+.price ins,
+.product-price ins,
+.widget ins,
+.wp-block-separator.is-style-dots:before,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message,
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.entry-content p,
+#mc_subheader,
+.mc_merge_var {
+    color: #000;
+}
+
+.sharedaddy .sd-social-text .sd-content ul li a.sd-button,
+div#respond .form-submit input,
+div#respond .form-submit input#comment-submit,
+div#respond .comment-form-fields input[type=submit],
+div#respond p.form-submit input[type=submit],
+div#respond input[type=submit],
+div#commentform #submit {
+    color: #000 !important;
+}
+
+select {
+    background-image:
+        linear-gradient(45deg, transparent 51%, #000 50%),
+        linear-gradient(135deg, #000 51%, transparent 50%);
+}
+
+select:focus {
+    background-image:
+        linear-gradient(45deg, #000 51%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, #000 51%);
+}
+
+.slick-dots li button:before,
+.slick-dots li button:after,
+hr,
+.wp-block-separator,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[data-selected],
+.woocommerce a.remove:hover:before,
+.woocommerce a.remove:hover:after,
+.widget_shopping_cart .cart_list li a.remove:hover:before,
+.widget_shopping_cart .cart_list li a.remove:hover:after,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[data-selected],
+.woocommerce div.product form.cart .button {
+    background-color: #000;
+}
+
+.no-results input[type="search"]::-webkit-input-placeholder,
+.error-404 input[type="search"]::-webkit-input-placeholder {
+    color: #000;
+}
+
+.no-results input[type="search"]:-moz-placeholder,
+.error-404 input[type="search"]:-moz-placeholder {
+    color: #000;
+}
+
+.no-results input[type="search"]::-moz-placeholder,
+.error-404 input[type="search"]::-moz-placeholder {
+    color: #000;
+}
+
+.no-results input[type="search"]:-ms-input-placeholder,
+.no-results input[type="search"]:-ms-input-placeholder:focus,
+.error-404 input[type="search"]:-ms-input-placeholder,
+.error-404 input[type="search"]:-ms-input-placeholder:focus {
+    color: #000;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true] {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+blockquote cite,
+blockquote + cite,
+blockquote + p cite,
+q cite,
+q + cite,
+q + p cite {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.site-info,
+.site-info a,
+.wp-block-image figcaption,
+.wp-block-embed figcaption,
+.site-info,
+.site-info a,
+.author-title,
+.author-name span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.woocommerce a.remove:before,
+.woocommerce a.remove:after {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+mark,
+ins,
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true] {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+fieldset,
+.header-image,
+.no-results input[type="search"],
+.error-404 input[type="search"],
+.no-results input[type="search"]:focus,
+.error-404 input[type="search"]:focus,
+.has-sidebar .content-area,
+.layout-magazine article:after,
+.layout-newspaper .masonry article,
+.related-holder + .comment-holder > *:first-child,
+.comment-content table,
+.entry-content table,
+.comment-content th,
+.entry-content th,
+.comment-content td,
+.entry-content td,
+.widget_calendar tbody,
+.widget_recent_comments li:not(:last-child),
+.widget_recent_entries li:not(:last-child),
+.widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4:not(:first-of-type),
+body .jp-carousel-light #carousel-reblog-box input#carousel-reblog-submit,
+body #jp-carousel-comment-form-button-submit,
+#eu-cookie-law input[type="submit"],
+body #infinite-handle span button,
+.featured-category-wrap .featured-category article:not(:last-child),
+div#respond .form-submit input,
+div#respond .form-submit input#comment-submit,
+div#respond .comment-form-fields input[type=submit],
+div#respond p.form-submit input[type=submit],
+div#respond input[type=submit],
+div#commentform #submit,
+.widget .accent-box,
+.entry-author,
+div.sharedaddy .sd-social h3.sd-title,
+body #eu-cookie-law,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce #respond input#submit.alt.disabled:hover,
+.woocommerce #respond input#submit.alt:disabled,
+.woocommerce #respond input#submit.alt:disabled:hover,
+.woocommerce #respond input#submit.alt:disabled[disabled],
+.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+.woocommerce a.button.alt.disabled,
+.woocommerce a.button.alt.disabled:hover,
+.woocommerce a.button.alt:disabled,
+.woocommerce a.button.alt:disabled:hover,
+.woocommerce a.button.alt:disabled[disabled],
+.woocommerce a.button.alt:disabled[disabled]:hover,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+.woocommerce input.button.alt.disabled,
+.woocommerce input.button.alt.disabled:hover,
+.woocommerce input.button.alt:disabled,
+.woocommerce input.button.alt:disabled:hover,
+.woocommerce input.button.alt:disabled[disabled],
+.woocommerce input.button.alt:disabled[disabled]:hover,
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message,
+.select2-container .select2-choice,
+.select2-container .select2-selection--single,
+.select2-drop-active,
+.select2-dropdown,
+.select2-drop.select2-drop-above.select2-drop-active,
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-selection--single,
+.select2-dropdown-open.select2-drop-above .select2-choices,
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.cart-collaterals,
+#order_review,
+#add_payment_method table.cart td.actions .coupon .input-text,
+.woocommerce-cart table.cart td.actions .coupon .input-text,
+.woocommerce-checkout table.cart td.actions .coupon .input-text,
+.woocommerce-cart table.cart td.actions .coupon .button,
+.search-results:not(.archive) .listing article,
+#add_payment_method #payment ul.payment_methods li,
+.woocommerce-cart #payment ul.payment_methods li,
+.woocommerce-checkout #payment ul.payment_methods li,
+.widget_calendar tbody a:after,
+.woocommerce table.wishlist_table thead th,
+.woocommerce table.wishlist_table tbody td,
+body .woocommerce table.shop_table,
+body .woocommerce table.shop_table td,
+table.cart tbody tr:last-of-type td,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt,
+#add_payment_method .cart-collaterals .cart_totals tr td,
+#add_payment_method .cart-collaterals .cart_totals tr th,
+.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.woocommerce-cart .cart-collaterals .cart_totals tr th,
+.woocommerce-checkout .cart-collaterals .cart_totals tr td,
+.woocommerce-checkout .cart-collaterals .cart_totals tr th,
+.select2-container .select2-choice,
+.select2-container .select2-selection--single,
+.select2-drop-active,
+.select2-dropdown,
+.select2-drop.select2-drop-above.select2-drop-active,
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-selection--single,
+.select2-dropdown-open.select2-drop-above .select2-choices,
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message,
+.woocommerce table.shop_table tbody th,
+.woocommerce table.shop_table tfoot td,
+.woocommerce table.shop_table tfoot th,
+.woocommerce-MyAccount-navigation ul {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.lines .line,
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+button:focus,
+.button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+.widget input[type="text"]:focus,
+.widget input[type="email"]:focus,
+.widget input[type="tel"]:focus,
+.widget input[type="password"]:focus,
+.widget input[type="url"]:focus,
+.widget input[type="search"]:focus,
+.widget input[type="number"]:focus,
+.widget select:focus,
+.widget textarea:focus,
+body .jp-carousel-light #carousel-reblog-box input#carousel-reblog-submit:focus,
+body #jp-carousel-comment-form-button-submit:focus,
+#eu-cookie-law input[type="submit"]:focus,
+label.checkbox:before,
+input[type="checkbox"] + label:before,
+label.radio:before,
+input[type="radio"] + label:before,
+.comment-form input[type="text"]:focus,
+.comment-form input[type="email"]:focus,
+.comment-form input[type="tel"]:focus,
+.comment-form input[type="url"]:focus,
+.comment-form input[type="password"]:focus,
+.comment-form input[type="search"]:focus,
+.comment-form input[type="number"]:focus,
+.comment-form textarea:focus,
+.woocommerce div.product form.cart .button {
+    border-color: #000;
+}
+
+/*Heading color*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+blockquote,
+.emphasis,
+.search-form input[type="submit"],
+body #infinite-handle span,
+body #TB_caption,
+.format-video #TB_ajaxWindowTitle {
+    color: #0a0a0a;
+}
+
+/*Link and Meta colors*/
+
+.entry-meta,
+.entry-meta a,
+.widget_recent_entries .post-date,
+.jp-relatedposts-post-context,
+.jp-relatedposts-post-date {
+    color: #f3ad97;
+}
+
+/*Main Header colors*/
+
+.site-header,
+.header-under-layer,
+.main-navigation ul ul,
+.header-scrolled .site-header,
+.single .nav-previous,
+.single .nav-next {
+    background-color: #ffffff;
+}
+
+.site-header,
+.site-header a,
+.menu-toggle em,
+.big-search-trigger button,
+.sidebar-trigger button,
+.big-search-trigger button:focus,
+.social-menu-trigger button:focus,
+.main-navigation ul ul a,
+.single .nav-links a,
+.single .nav-links > div > span {
+    color: #0c0c0c;
+}
+
+.menu-toggle span,
+.menu-toggle span:before,
+.menu-toggle span:after,
+.icon-drop-down:before,
+.icon-drop-down:after {
+    background-color: #0c0c0c;
+}
+
+/*Main Search and Social*/
+
+.search-wrap,
+.social-wrapper,
+.widget .accent-box:before {
+    background-color: #e9d9d3;
+}
+
+.search-wrap,
+body .jetpack-social-navigation a {
+    color: #000;
+}
+
+#big-search-close:before,
+#big-search-close:after,
+#closeSocialMenu:before,
+#closeSocialMenu:after {
+    background-color: #000;
+}
+
+.search-wrap input[type="search"]::-webkit-input-placeholder {
+    color: #000;
+}
+
+.search-wrap input[type="search"]:-moz-placeholder {
+    color: #000;
+}
+
+.search-wrap input[type="search"]::-moz-placeholder {
+    color: #000;
+}
+
+.search-wrap input[type="search"]:-ms-input-placeholder,
+.search-wrap input[type="search"]:-ms-input-placeholder:focus {
+    color: #000;
+}
+
+.search-wrap input[type="search"],
+.search-wrap input[type="search"]:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+/*Responsive*/
+
+@media only screen and (min-width: 1025px) {
+
+    .entry-meta a:hover,
+    .woocommerce #respond input#submit.alt:hover,
+    .woocommerce a.button.alt:hover,
+    .woocommerce button.button.alt:hover,
+    .woocommerce input.button.alt:hover {
+        color: #000;
+    }
+
+    .site-info a:hover {
+        color: #0c0c0c;
+    }
+
+    .big-search-trigger button:hover,
+    .social-menu-trigger button:hover {
+        color: #0c0c0c;
+    }
+
+    input[type="text"]:hover,
+    input[type="email"]:hover,
+    input[type="url"]:hover,
+    input[type="password"]:hover,
+    input[type="search"]:hover,
+    input[type="number"]:hover,
+    input[type="tel"]:hover,
+    input[type="range"]:hover,
+    input[type="date"]:hover,
+    input[type="month"]:hover,
+    input[type="week"]:hover,
+    input[type="time"]:hover,
+    input[type="datetime"]:hover,
+    input[type="datetime-local"]:hover,
+    input[type="color"]:hover,
+    textarea:hover,
+    select:hover,
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="password"]:focus,
+    input[type="search"]:focus,
+    input[type="number"]:focus,
+    input[type="tel"]:focus,
+    input[type="range"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="week"]:focus,
+    input[type="time"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="color"]:focus,
+    textarea:focus,
+    select:focus,
+    body .tb-close-icon:hover,
+    body .tb-close-icon:focus,
+    .widget input[type="text"]:hover,
+    .widget input[type="email"]:hover,
+    .widget input[type="tel"]:hover,
+    .widget input[type="password"]:hover,
+    .widget input[type="url"]:hover,
+    .widget input[type="search"]:hover,
+    .widget select:hover,
+    .widget textarea:hover,
+    body #infinite-handle span button:hover,
+    body #infinite-handle span button:focus,
+    .woocommerce a.button:hover,
+    .woocommerce a.button:focus,
+    .woocommerce button.button:hover,
+    .woocommerce button.button:focus,
+    .woocommerce input.button:hover,
+    .woocommerce input.button:focus,
+    .woocommerce #respond input#submit:hover,
+    .woocommerce #respond input#submit:focus,
+    .woocommerce a.button.alt:hover,
+    .woocommerce a.button.alt:focus,
+    .woocommerce button.button.alt:hover,
+    .woocommerce button.button.alt:focus,
+    .woocommerce input.button.alt:hover,
+    .woocommerce input.button.alt:focus,
+    .woocommerce #respond input#submit.alt:hover,
+    .woocommerce #respond input#submit.alt:focus,
+    .select2-container .select2-choice:hover,
+    .select2-container .select2-selection--single:hover,
+    .select2-drop-active:hover,
+    .select2-dropdown:hover,
+    .select2-drop.select2-drop-above.select2-drop-active:hover,
+    .select2-dropdown-open.select2-drop-above .select2-choice:hover,
+    .select2-dropdown-open.select2-drop-above .select2-selection--single:hover,
+    .select2-dropdown-open.select2-drop-above .select2-choices:hover,
+    .select2-container--default .select2-search--dropdown .select2-search__field:hover,
+    .select2-container--open .select2-selection--single,
+    .select2-container--open .select2-dropdown--below,
+    .select2-container .select2-choice:focus,
+    .select2-container .select2-selection--single:focus,
+    .select2-drop-active:focus,
+    .select2-dropdown:focus,
+    .select2-drop.select2-drop-above.select2-drop-active:focus,
+    .select2-dropdown-open.select2-drop-above .select2-choice:focus,
+    .select2-dropdown-open.select2-drop-above .select2-selection--single:focus,
+    .select2-dropdown-open.select2-drop-above .select2-choices:focus,
+    .select2-container--default .select2-search--dropdown .select2-search__field:focus,
+    .woocommerce-cart table.cart td.actions .coupon .input-text:hover,
+    .woocommerce-cart table.cart td.actions .coupon .button:hover,
+    .woocommerce-cart table.cart td.actions .coupon .input-text:focus,
+    .woocommerce-cart table.cart td.actions .coupon .button:focus {
+        border-color: #000;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .menu-toggle + div,
+    .main-navigation > .menu {
+        background-color: #ffffff;
+    }
+
+}
+
+    {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+}
+
+</style >
