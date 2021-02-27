@@ -20302,7 +20302,7 @@ body .gist .gist-meta {
     background-repeat: repeat-x;
     background-image: url("https://i.stack.imgur.com/b7z29.png");
     /*background-image: url(../images/);*/
-    animation: movement 50s linear infinite;
+    animation: movement 15s linear infinite;
 }
 
 @keyframes movement {
