@@ -4552,7 +4552,7 @@ body,
 blockquote:before,
 q:before,
 .masonry .sticky:before {
-    background-color: #8EC1DA;
+    background-color: #BFDFEC;
 }
 
 .comments-area,
@@ -19966,7 +19966,7 @@ body.search .jetpack-search-form input[name="s"].show-placeholder::placeholder {
     line-height: 45px;
     border-radius: 50%;
     color: #000;
-    background-color: #8EC1DA;
+    background-color: #BFDFEC;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0);
     transition: all 0.3s ease;
     overflow: hidden
@@ -20311,7 +20311,7 @@ body .gist .gist-meta {
     }
 
     100% {
-        background-position: 1500px 0px;
+        background-position: 500px 0px;
     }
 }
 
