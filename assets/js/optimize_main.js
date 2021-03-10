@@ -4,7 +4,7 @@ window._wpemojiSettings = {
     "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
     "svgExt": ".svg",
     "source": {
-        "concatemoji": "https:\/\/uppercasetheme.com\/absent-minded\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.2"
+        "concatemoji": ""
     }
 };
 ! function (e, a, t) {
@@ -6224,7 +6224,7 @@ var canvas_sg_flickity = {
 })(jQuery);
 var wpcf7 = {
     "apiSettings": {
-        "root": "https:\/\/uppercasetheme.com\/absent-minded\/wp-json\/contact-form-7\/v1",
+        "root": "",
         "namespace": "contact-form-7\/v1"
     }
 };
@@ -7790,7 +7790,7 @@ var powerkit_lightbox_localize = {
     });
 })(jQuery);
 var opt_in = {
-    "ajax_url": "https:\/\/uppercasetheme.com\/absent-minded\/wp-admin\/admin-ajax.php",
+    "ajax_url": "",
     "warning_privacy": "Please confirm that you agree with our policies."
 };
 "use strict";
@@ -8995,7 +8995,7 @@ var powerkit_sg_flickity = {
 })]);
 var searchwp_live_search_params = [];
 searchwp_live_search_params = {
-    "ajaxurl": "https:\/\/uppercasetheme.com\/absent-minded\/wp-admin\/admin-ajax.php",
+    "ajaxurl": "",
     "origin_id": 0,
     "config": {
         "default": {
@@ -9402,35 +9402,5 @@ parcelRequire = function (e, r, t, n) {
         if (!Object.entries(powerkitSLinksData).length) {
             return;
         }
-/*        $.ajax({
-            type: 'GET',
-            url: 'https://uppercasetheme.com/absent-minded/wp-json/social-counts/v1/get-counts',
-            data: powerkitSLinksData,
-            beforeSend: function () {
-                powerkitSLinksRestBox.addClass('pk-social-links-loading');
-            },
-            success: function (response) {
-                if (!$.isEmptyObject(response) && !response.hasOwnProperty('code')) {
-                    $.each(response, function (index, data) {
-                        var powerkitSLinksItem = powerkitSLinksRestBox.find('.pk-social-links-item[data-id="' + index + '"]');
-                        if (data.hasOwnProperty('class')) {
-                            powerkitSLinksItem.addClass(data.class);
-                        }
-                        if (data.hasOwnProperty('result') && data.result !== null && data.result.hasOwnProperty('count')) {
-                            if (data.result.count) {
-                                powerkitSLinksItem.removeClass('pk-social-links-no-count').addClass('pk-social-links-item-count');
-                                powerkitSLinksItem.find('.pk-social-links-count').not('.pk-tippy').html(data.result.count);
-                            }
-                        } else {
-                            powerkitSLinksItem.addClass('pk-social-links-no-count');
-                        }
-                    });
-                }
-                powerkitSLinksRestBox.removeClass('pk-social-links-loading');
-            },
-            error: function () {
-                powerkitSLinksRestBox.removeClass('pk-social-links-loading');
-            }
-        });*/
     });
 })(jQuery);
