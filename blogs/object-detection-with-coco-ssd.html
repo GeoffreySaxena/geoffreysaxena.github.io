@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WYJN75BMB1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WYJN75BMB1');
+    </script>
+
+    <!-- Site Title -->
+    <title>Geoffrey 🚀 Object Detection with COCO-SSD</title>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- Author Meta -->
+    <meta name="author" content="Pratik Geoffrey Saxena">
+    <!-- Meta Description -->
+    <meta name="description" content="A personal website built and deployed by Pratik Geoffrey Saxena.">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="portfolio">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- meta related tags -->
+    <meta name="generator" content="">
+    <meta name="keywords" content="Machine Learning, Visusalization, Tableau, Data Visualization, Blogs, Portfolio">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="robots" content="all">
+    <meta content="Pratik Geoffrey Saxena" property="og:site_name">
+    <meta content="website" property="og:type">
+    <meta content="https://www.geoffreysaxena.tech/" property="og:url">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:site_name" content="Absent Minded" />
+    <meta content="Pratik Geoffrey Saxena Home Page" property="og:image:alt">
+    <meta content="https://www.linkedin.com/in/geoffreysaxena/" property="og:see_also">
+    <meta content="https://github.com/GeoffreySaxena/" property="og:see_also">
+    <meta content="https://twitter.com/geoffrey_saxena" property="og:see_also">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@geoffrey_saxena">
+    <meta name="twitter:creator" content="@geoffrey_saxena">
+    <meta name="twitter:title" content="A personal website built and deployed by Pratik Geoffrey Saxena.">
+    <meta name="twitter:description" content="A personal website built and deployed by Pratik Geoffrey Saxena.">
+    <meta name="twitter:image:alt" content="Pratik Geoffrey Saxena Home Page">
+
+    <meta property="og:title" content="Object Detection with COCO-SSD" />
+    <meta property="og:description" content="Object Detection with COCO-SSD" />
+
+    <!-- CSS/JS -->
+    <link media="all" href="../assets/css/optimize_blogs.css" rel="stylesheet" />
+    <link media="all" href="../assets/css/optimize_blogs_master.css" rel="stylesheet" />
+    <link media="screen" href="../assets/css/main.css" rel="stylesheet" />
+    <script defer src="../assets/js/optimize_main.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fjord+One&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body class="post-template-default single single-post postid-261 single-format-standard wp-embed-responsive" data-scheme='dark' site-data-scheme='dark'>
+    <div id="page" class="cs-site">
+        <div class="cs-site-inner">
+            <main id="main" class="cs-site-primary">
+                <div class="cs-site-content">
+                    <div id="content" class="cs-main-content">
+                        <div class="cs-page-header-area" data-scheme="inverse" data-force="true">
+                            <div class="cs-page-header-overlay cs-video-wrap">
+                                <div class="cs-page-header-background cs-overlay-gradient-top cs-overlay-gradient-bottom">
+                                    <div class="cs-page-header-background__inner cs-page-header-background__inner-current cs-active-prev-next"> <img width="960" height="960" src="../images/blog/object-detection-coco-ssd-960.webp" class="attachment-csco-hero size-csco-hero pk-lqip pk-lazyload" alt="" loading="lazy" data-pk-sizes="auto" data-ls-sizes="(max-width: 960px) 100vw, 960px" data-pk-src="../images/blog/object-detection-coco-ssd-960.webp" data-pk-srcset="../images/blog/object-detection-coco-ssd-960.webp" /></div>
+                                </div>
+
+                                <div class="cs-page-header-item">
+                                    <header id="masthead" class="cs-header cs-header-primary cs-header-social-links-enable">
+                                        <div class="cs-header__inner cs-header__inner-desktop">
+                                            <div class="cs-header__col cs-col-left">
+                                                <div class="cs-logo "> <a class="cs-header__logo cs-logo-default " href="../index.html"> <img src="../images/data-demystified.png" alt="Data Demystified" srcset="../images/data-demystified.png"> </a></div>
+                                            </div>
+                                            <div class="cs-header__col cs-col-right">
+                                                <!-- <span class="cs-header__search-toggle" role="button"> <i class="cs-icon cs-icon-search"></i> <span class="cs-header__search-label">Search</span> </span> --> <span class="cs-header__menu-toggle" role="button">Menu</span>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="cs-page-header-inner">
+                                        <div class="cs-entry__header cs-entry__header-standard">
+                                            <div class="cs-entry__header-inner">
+                                                <div class="cs-entry__header-info">
+                                                    <div class="cs-entry__header-info-inner">
+                                                        <div class="cs-entry__header-description cs-entry__title-current cs-active-prev-next">
+                                                            <div class="cs-entry__post-meta">
+                                                                <div class="cs-meta-category">
+                                                                    <ul class="post-categories">
+                                                                        <li><a href="../category/category-javascript.html" rel="category tag">JavaScript</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <h1 class="cs-entry__title"><span>Object Detection with COCO-SSD</span></h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cs-menu cs-component" data-scheme="dark">
+                                <div class="cs-menu__inner">
+                                    <nav class="cs-menu__nav cs-menu__nav-main">
+                                        <ul id="menu-primary" class="cs-menu__nav-inner cs-show-wrapper">
+                                            <li id="menu-item-558" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-558"><a href="../index.html">Home</a></li>
+                                            <li id="menu-item-577" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-577"><a href="#">Categories</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-1839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1839"><a href="../category/category-machine_learning.html">Machine Learning </a></li>
+                                                    <li id="menu-item-578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-578"><a href="../category/category-data_visualization.html">Data Visualization </a></li>
+                                                    <li id="menu-item-1840" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1840"><a href="../category/category-javascript.html">JavaScript</a></li>
+                                                    <li id="menu-item-1841" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1841"><a href="../category/category-makeover_monday.html">MakeoverMonday</a></li>
+                                                    <li id="menu-item-1842" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1842"><a href="../category/category-coding_challenges.html">Coding Challenges</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a href="../about/geoffreysaxena.html">About</a></li>
+                                            <li id="menu-item-342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a href="https://www.geoffreysaxena.tech/portfolio/">Portfolio</a></li>
+                                            <li id="menu-item-342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a href="../contact/index.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="primary" class="cs-content-area">
+                            <div class="cs-content-inner">
+                                <header class="cs-header cs-header-secondary">
+                                    <div class="cs-header__inner cs-header__inner-desktop">
+                                        <div class="cs-header__col cs-col-left">
+                                            <div class="cs-header__col-inner">
+                                                <div class="cs-breadcrumbs" id="breadcrumbs"><span><span><a href="../index.html">Home</a> <span class="cs-separator"></span> <span><a href="../category/category-javascript.html">JavaScript</a></span></span></span></div>
+                                                <div class="cs-entry__post-meta">
+                                                    <div class="cs-meta-author"><a class="cs-meta-author-inner url fn n" href="../about/geoffreysaxena.html" title="Pratik Geoffrey Saxena"><span class="cs-author">Geoffrey Saxena</span></a></div>
+                                                    <div class="cs-meta-date">February 19, 2021</div>
+                                                    <div class="cs-meta-reading-time"><span class="cs-meta-icon"><i class="cs-icon cs-icon-clock"></i></span>7 minute read</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-header__col cs-col-right">
+                                            <div class="cs-header__col-inner"> <span role="button" class="cs-header__scheme-toggle cs-site-scheme-toggle"> <span class="cs-header__scheme-toggle-icons"> <i class="cs-header__scheme-toggle-icon cs-icon cs-icon-sun"></i> <i class="cs-header__scheme-toggle-icon cs-icon cs-icon-moon"></i> </span> <span class="cs-header__scheme-toggle-label-dark">Dark</span> <span class="cs-header__scheme-toggle-label-light">Light</span> </span></div>
+                                        </div>
+                                    </div>
+                                </header>
+                                <div class="cs-content-item">
+                                    <div class="cs-entry__wrap">
+                                        <div class="cs-entry__container">
+                                            <div class="cs-entry__content-wrap">
+                                                <div class="entry-content">
+                                                    <p class="is-cnvs-dropcap-bordered">So, this is my starter code, we have two files, namely index.html &amp; sketch.js.</p>
+
+                                                    <h5 class="pk-title pk-toc-title pk-font-block">index.html</h5>
+
+                                                    <p>
+                                                    <figure class="highlight">
+                                                        <pre><span class="p">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://unpkg.com/ml5@latest/dist/ml5.min.js">&lt;/script&gt;
+    &lt;link rel="stylesheet" type="text/css" href="style.css">
+    &lt;meta charset="utf-8" />
+
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;script src="sketch.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</span></pre>
+                                                    </figure>
+                                                    </p>
+
+                                                    <p>
+                                                        I have imported the ml5 library &amp; the p5 library, I’m running the latest version as of writing this blog (p5.js – 1.2.0).
+                                                    </p>
+
+                                                    <p>
+                                                        Moving on to the sketch.js file, we have a variable to store the image in, a preload function that just loads the image, and a setup function in which we’ve created a canvas with the create canvas function and an image function with the x coordinate &amp; y coordinate.
+                                                    </p>
+
+                                                    <h5 class="pk-title pk-toc-title pk-font-block">sketch.js</h5>
+
+                                                    <p>
+                                                    <figure class="highlight">
+                                                        <pre><span class="p">let img;
+function preload() {
+  img = loadImage('myimage.jpg');
+}</span></pre>
+                                                    </figure>
+                                                    </p> <span id="more-261"></span>
+
+                                                    <p>
+                                                        Then we move on to create a variable to store our COCO-SSD model, let’s name this detector.
+                                                    </p>
+
+                                                    <p>
+                                                    <figure class="highlight">
+                                                        <pre><span class="p">let detector;</span></pre>
+                                                    </figure>
+                                                    </p>
+
+                                                    <p>
+                                                        We then call the detector with the ml5’s objectDetector function and pass in the ‘cocossd’ as the model name.
+                                                    </p>
+
+                                                    <p>
+                                                    <figure class="highlight">
+                                                        <pre><span class="p">function preload() {
+  img = loadImage('myimage.jpg');
+  detector = ml5.objectDetector('cocossd');
+}</span></pre>
+                                                    </figure>
+                                                    </p>
+
+                                                    <p>
+                                                        To make things simple we’re using the preload function, without this we’d have to utilize callbacks or promises whichever you’d prefer.
+                                                    </p>
+
+                                                    <p>
+                                                        Once we’ve completed this, we can now move on to create a detect function and pass it the image and a callback function that lets us know that the object has been detected, we’ll name it as gotDetections.
+                                                    </p>
+
+                                                    <p>
+                                                    <figure class="highlight">
+                                                        <pre><span class="p">function setup() {
+  createCanvas(640, 480);
+  image(img, 0, 0);
+  detector.detect(img, gotDetections);
+}</span></pre>
+                                                    </figure>
+                                                    </p>
+
+
+                                                    <p>
+                                                        Let’s now write in the gotDetections function, here we create a function, and pass it two arguments, first the error &amp; then the results as ml5 follow an error first callback mechanism.
+                                                    </p>
+
+                                                    <p>
+                                                        We just handle the error by logging in into the console &amp; move on.
+                                                    </p>
+
+                                                    <p>
+                                                        To display the results, in this case, they are bounding boxes we’ll just write a for loop that’ll create the boxes by extracting their coordinates from the results array.
+                                                    </p>
+
+                                                    <p>
+                                                        We can do this by drawing a rectangle and passing it the x coordinate, y coordinate, width, and height.
+                                                    </p>
+
+                                                    <p>
+                                                    <figure class="highlight">
+                                                        <pre><span class="p">function gotDetections(error, results) {
+  if (error) {
+    console.error(error);
+  }
+  console.log(results);  
+  for (let i = 0; i &lt; results.length; i++) {
+    let object = results[i];
+    stroke(0,255,0);
+    strokeWeight(4);
+    noFill();
+    rect(object.x, object.y, object.width, object.height);
+    noStroke();
+    fill(255);
+    textSize(24);
+    text(object.label, object.x + 10, object.y+24);
+  }
+}</span></pre>
+                                                    </figure>
+                                                    </p>
+
+                                                    <p>
+                                                        Also, we’ll add in the no fill as we don’t want to fill the rectangle, to display the ‘label’ of the object the model detected, we’ll pass in a text function with the x coordinate &amp; the y coordinate to it.
+                                                    </p>
+
+                                                    <p>
+                                                        Combine all the code snippets and your sketch.js file should look something like this:
+                                                    </p>
+
+                                                    <p>
+                                                    <figure class="highlight">
+                                                        <pre><span class="p">let img;
+let detector;
+
+function preload() {
+  img = loadImage('dog_cat.jpg');
+  detector = ml5.objectDetector('cocossd');
+}
+
+function gotDetections(error, results) {
+  if (error) {
+    console.error(error);
+  }
+  console.log(results);  
+  for (let i = 0; i &lt; results.length; i++) {
+    let object = results[i];
+    stroke(0,255,0);
+    strokeWeight(4);
+    noFill();
+    rect(object.x, object.y, object.width, object.height);
+    noStroke();
+    fill(255);
+    textSize(24);
+    text(object.label, object.x + 10, object.y+24);
+  }
+  
+}
+
+function setup() {
+  createCanvas(640, 480);
+  image(img, 0, 0);
+  detector.detect(img, gotDetections);
+}</span></pre>
+                                                    </figure>
+                                                    </p>
+
+                                                </div>
+                                                <div class="cs-entry__author">
+                                                    <div class="cs-entry__author-inner"> <a href="../about/geoffreysaxena.html" class="cs-entry__author-photo"> <img alt='' src='../images/geffy.webp' class='avatar avatar-100 photo' height='100' width='100' loading='lazy' /> </a>
+                                                        <div class="cs-entry__author-info"> <span class="cs-entry__author-position">Author</span>
+                                                            <div class="cs-entry__author-name-wrapper">
+                                                                <h4 class="cs-entry__author-name"> <a href="../about/geoffreysaxena.html"> Pratik Geoffrey Saxena </a></h4>
+
+                                                                <div class="cs-entry__author-social">
+                                                                    <div class="pk-author-social-links pk-social-links-wrap pk-social-links-template-default">
+
+                                                                        <div class="pk-social-links-items">
+                                                                            <div class="pk-social-links-item pk-social-links-website"></div><a class="social__link" href="https://github.com/geoffreysaxena" target="_blank" rel="noopener" aria-label="social icon"><span class="iconify" data-icon="brandico:github" data-inline="false"></span>
+                                                                            </a>
+                                                                            <div class="pk-social-links-item pk-social-links-website"></div><a class="social__link" href="https://www.linkedin.com/in/geoffreysaxena/" target="_blank" rel="noopener" aria-label="social icon"><span class="iconify" data-icon="brandico:linkedin-rect" data-inline="false"></span>
+                                                                            </a>
+                                                                            <div class="pk-social-links-item pk-social-links-website"></div><a class="social__link" href="https://public.tableau.com/profile/saxenageoffrey#!/" target="_blank" rel="noopener"><span class="iconify" data-icon="cib:tableau" data-inline="false"></span>
+                                                                            </a>
+                                                                            <div class="pk-social-links-item pk-social-links-website"></div><a style="--ionicon-stroke-width: 64px" class="social__link" href="https://twitter.com/geoffrey_saxena" target="_blank" rel="noopener"><span class="iconify" data-icon="el:twitter" data-inline="false"></span>
+                                                                            </a>
+                                                                            <div class="pk-social-links-item pk-social-links-website"></div><a style="--ionicon-stroke-width: 128px" class="social__link" href="https://www.geoffreysaxena.tech/" target="_blank" rel="noopener"><span class="iconify" data-icon="whh:website" data-inline="false"></span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cs-entry__author-description">In here, you can read about my adventures with Machine Learning, Deep Learning, Data Visualization &amp; JavaScript! </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div> <a href="#top" class="pk-scroll-to-top"> <i class="pk-icon pk-icon-up"></i> </a>
+    <div id="fb-root"></div>
+
+    <script id='powerkit-typekit-js-extra'>
+        var powerkit_typekit = {
+            "kit": "eug4kdn"
+        };
+    </script>
+    <script src='../assets/js/powerkit-typekit.js' id='powerkit-typekit-js'></script>
+    <script id='csco-scripts-js-extra'>
+        var csLocalize = {
+            "siteSchemeMode": "dark",
+            "siteSchemeToogle": "1"
+        };
+    </script>
+</body>
+
+</html>
