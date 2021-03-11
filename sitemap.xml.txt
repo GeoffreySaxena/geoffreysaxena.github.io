@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://www.geoffreysaxena.tech/</loc>
+	<lastmod>2021-03-11T05:05:07+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/index.html</loc>
+	<lastmod>2021-03-11T05:05:08+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/category/category-machine_learning.html</loc>
+	<lastmod>2021-03-11T05:05:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/category/category-data_visualization.html</loc>
+	<lastmod>2021-03-11T05:05:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/category/category-javascript.html</loc>
+	<lastmod>2021-03-11T05:05:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/category/category-makeover_monday.html</loc>
+	<lastmod>2021-03-11T05:05:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/category/category-coding_challenges.html</loc>
+	<lastmod>2021-03-11T05:05:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/about/geoffreysaxena.html</loc>
+	<lastmod>2021-03-11T05:05:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/</loc>
+	<lastmod>2021-03-11T05:05:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/contact/index.html</loc>
+	<lastmod>2021-03-11T05:05:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/classifying-doodle-with-javascript.html</loc>
+	<lastmod>2021-03-11T05:05:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/who-said-mathematics-isn&apos;t-beautiful.html</loc>
+	<lastmod>2021-03-11T05:05:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/dog-breed-classification-using-cnn&apos;s.html</loc>
+	<lastmod>2021-03-11T05:05:11+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/compose-a-poem-using-nlp-and-bert.html</loc>
+	<lastmod>2021-03-11T05:05:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/object-detection-with-coco-ssd.html</loc>
+	<lastmod>2021-03-11T05:05:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/webcam-image-classification.html</loc>
+	<lastmod>2021-03-11T05:05:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/visualizing-friends-screentime.html</loc>
+	<lastmod>2021-03-11T05:05:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/blogs/image-classification-with-mobilenet.html</loc>
+	<lastmod>2021-03-11T05:05:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/cookies/cookie-policy.html</loc>
+	<lastmod>2021-03-11T05:05:12+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/index.html</loc>
+	<lastmod>2021-03-11T05:05:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/playground-regression.html</loc>
+	<lastmod>2021-03-11T05:05:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/playground-doodle.html</loc>
+	<lastmod>2021-03-11T05:05:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/playground-image-classify.html</loc>
+	<lastmod>2021-03-11T05:05:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/playground-dark.html</loc>
+	<lastmod>2021-03-11T05:05:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/portfolio-dark.html</loc>
+	<lastmod>2021-03-11T05:05:13+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/playground/Playground-Regression/index.html</loc>
+	<lastmod>2021-03-11T05:05:14+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/playground/Playground-Doodle/index.html</loc>
+	<lastmod>2021-03-11T05:05:14+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://www.geoffreysaxena.tech/portfolio/playground/Playground-Image-Classify/index.html</loc>
+	<lastmod>2021-03-11T05:05:14+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+</urlset>
