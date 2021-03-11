@@ -30994,4 +30994,19 @@ div.wpcf7 input[type=file]:disabled {
     margin-bottom: 2rem
 }
 
-</style > 
+html::-webkit-scrollbar {
+    width: 16px;
+    height: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #2A2A2A;
+    border-radius: 16px;
+    box-shadow: inset 4px 4px 4px hsla(0, 0%, 100%, .1), inset -2px -2px 2px rgba(0, 0, 0, .1);
+}
+
+html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #2d2d2d, #2d2d2d 1px, #111 0, #111);
+}
+
+</style >
